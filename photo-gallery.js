@@ -40,9 +40,13 @@
       document.body.classList.remove('photos-pending');
     };
     try {
-      const response = await fetch('./data/great-dane-photos.json');
-      if (!response.ok) throw new Error('Manifest unavailable');
-      photos = await response.json();
+      if (Array.isArray(window.greatDanePhotos)) {
+        photos = window.greatDanePhotos;
+      } else {
+        const response = await fetch('./data/great-dane-photos.json');
+        if (!response.ok) throw new Error('Manifest unavailable');
+        photos = await response.json();
+      }
       if (route !== (location.hash.slice(1) || 'home')) return;
       if (!Array.isArray(photos) || !photos.length) {
         removeUnconfiguredPhotos();
