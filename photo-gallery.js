@@ -9,7 +9,7 @@
     const results = matching(), shown = results.slice(0, limit);
     host.innerHTML = `<div class="photo-library-head"><div><div class="eyebrow">Our photo collection</div><h2>Great Danes, growing up</h2><p>${results.length} openly licensed photos · showing ${shown.length}</p></div><a class="photo-source" href="https://openverse.org/" target="_blank" rel="noreferrer">Find images via Openverse ↗</a></div>
       <div class="photo-filters" role="group" aria-label="Filter photos by category">${filters.map(([id,label]) => `<button type="button" data-filter="${id}" class="${active===id?'selected':''}" aria-pressed="${active===id}">${label}</button>`).join('')}</div>
-      <div class="photo-grid">${shown.map(p => `<article class="photo-card"><a class="photo-image-link" href="${esc(p.sourceUrl)}" target="_blank" rel="noreferrer" aria-label="Open ${esc(p.title)} on its source page"><img src="${esc(p.url)}" alt="${esc(p.alt)}" loading="lazy" decoding="async"></a><div class="photo-attribution"><a href="${esc(p.sourceUrl)}" target="_blank" rel="noreferrer">${esc(p.title)} · ${esc(p.photographer || 'Unknown creator')}</a><a href="${esc(p.licenseUrl)}" target="_blank" rel="noreferrer">${esc(p.license)}</a></div></article>`).join('')}</div>
+      <div class="photo-grid">${shown.map(p => `<article class="photo-card"><a class="photo-image-link" href="#/photos/${encodeURIComponent(p.id)}" aria-label="View details for ${esc(p.title)}"><img src="${esc(p.url)}" alt="${esc(p.alt)}" loading="lazy" decoding="async"><span class="photo-category-badge">${esc(p.category === 'puppy' ? 'Puppy' : 'Great Dane')}</span></a><div class="photo-attribution"><a class="photo-title-link" href="#/photos/${encodeURIComponent(p.id)}">${esc(p.title)}</a><span>Photo by ${esc(p.photographer || 'Unknown creator')}</span><a class="photo-license" href="${esc(p.licenseUrl)}" target="_blank" rel="noreferrer">${esc(p.license)}</a></div></article>`).join('')}</div>
       ${shown.length < results.length ? '<button class="btn photo-more" type="button">Load more photos</button>' : ''}`;
     host.querySelectorAll('[data-filter]').forEach(button => button.onclick = () => { active = button.dataset.filter; limit = BATCH; draw(host); });
     host.querySelector('.photo-more')?.addEventListener('click', () => { limit += BATCH; draw(host); });
@@ -58,7 +58,7 @@
         const hero = app.querySelector('.hero');
         if (hero) hero.style.backgroundImage = `linear-gradient(90deg,#17221cbd 0%,#2330268c 42%,#26312720 100%),url("${nextPhoto().url}")`;
       }
-      app.querySelectorAll('img:not(.gallery img)').forEach(image => {
+      app.querySelectorAll('img[data-pending-photo]').forEach(image => {
         if (image.closest('.quote .photos')) { image.closest('.photos')?.remove(); return; }
         const photo = nextPhoto();
         image.src = photo.url;
@@ -66,6 +66,15 @@
         image.alt = photo.alt;
         image.loading = 'lazy';
         image.decoding = 'async';
+        image.removeAttribute('data-pending-photo');
+        if (!image.closest('a')) {
+          const link = document.createElement('a');
+          link.className = 'site-photo-link';
+          link.href = `#/photos/${encodeURIComponent(photo.id)}`;
+          link.setAttribute('aria-label', `View photo details for ${photo.title || 'Great Dane'}`);
+          image.parentNode.insertBefore(link, image);
+          link.appendChild(image);
+        }
       });
       if (['puppies','dogs'].includes(route)) {
         const host = document.createElement('section');

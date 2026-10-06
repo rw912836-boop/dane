@@ -88,10 +88,20 @@ const faq = () => `${pageHero('Frequently asked questions', 'A few helpful answe
 const contact = () => `${pageHero('Let’s talk Great Danes', 'Questions about the breed, a visit, or current puppy availability? We would be glad to hear from you.')}<section class="section"><div class="wrap contact-grid"><div>${eyebrow('Get in touch')}<h2>We are here to help.</h2><p>Reach out to learn more about our Great Danes, upcoming litters, and visits by appointment.</p><div class="contact-detail"><span>Phone</span><a href="tel:8148739653">814-873-9653</a></div><div class="contact-detail"><span>Email</span><a href="mailto:info@shadeofgreyweims.com">info@shadeofgreyweims.com</a></div><div class="contact-detail"><span>Visit</span><p>10245 Barton Road<br>Waterford, PA 16441<br>Monday–Saturday, by appointment</p></div></div><div class="form-card">${contactForm()}</div></div></section>`;
 
 const pages = { home, puppies: availablePuppies, about, 'breed-info': breedInfo, adoption, 'adoption-application': adoptionApplication, blog, faq, contact };
+const galleryPhotos = Array.isArray(window.greatDanePhotos) ? window.greatDanePhotos : [];
+function photoDetail(id) {
+  const index = galleryPhotos.findIndex(photo => String(photo.id) === id);
+  if (index < 0) return `${pageHero('Photo details unavailable', 'This photo is not in the current collection.')}<section class="section"><div class="content-narrow"><a class="button" href="#puppies">Return to Great Dane photos</a></div></section>`;
+  const photo = galleryPhotos[index];
+  const related = galleryPhotos.filter(item => item.id !== photo.id).slice(index % Math.max(1, galleryPhotos.length - 1), index % Math.max(1, galleryPhotos.length - 1) + 3);
+  return `<div class="detail-breadcrumb"><div class="wrap"><a href="#home">Home</a><span>&rsaquo;</span><a href="#puppies">Great Dane photos</a><span>&rsaquo;</span><span>${esc(photo.title)}</span></div></div><section class="section photo-detail"><div class="wrap"><div class="photo-detail-grid"><div class="photo-detail-image"><img src="${esc(photo.url)}" alt="${esc(photo.alt || photo.title)}"></div><div class="photo-detail-copy"><span class="photo-category-badge photo-detail-badge">${photo.category === 'puppy' ? 'Puppy' : 'Great Dane'}</span><h1>${esc(photo.title)}</h1><p class="photo-detail-description">${esc(photo.description || photo.alt || 'Great Dane photo from our collection.')}</p><dl class="spec-grid"><div><dt>Category</dt><dd>${esc(photo.category || 'Great Dane')}</dd></div><div><dt>Photographer</dt><dd>${esc(photo.photographer || 'Unknown creator')}</dd></div><div><dt>Collection</dt><dd>${esc((photo.categories || []).join(', ') || 'Great Danes')}</dd></div><div><dt>Image license</dt><dd><a href="${esc(photo.licenseUrl)}" target="_blank" rel="noreferrer">${esc(photo.license || 'See license terms')}</a></dd></div></dl><p class="photo-source-note">Image credit: ${esc(photo.attribution || photo.photographer || 'Creator details supplied with the photo')}. Select “${esc(photo.license || 'license')}” above to read its terms.</p><a class="button" href="#puppies">Back to all Great Dane photos</a></div></div>${related.length ? `<section class="related-photos"><h2>More Great Dane photos</h2><div class="photo-related-grid">${related.map(item => `<a class="photo-related-card" href="#/photos/${encodeURIComponent(item.id)}"><img src="${esc(item.thumbnail || item.url)}" alt="${esc(item.alt || item.title)}" loading="lazy"><span>${esc(item.title)}</span></a>`).join('')}</div></section>` : ''}</div></section>`;
+}
 function currentRoute() {
   const raw = location.hash.replace(/^#\/?/, '').split('?')[0] || 'home';
   const detail = raw.match(/^puppies\/([^/]+)$/);
   if (detail) return { page: 'puppies', detailSlug: decodeURIComponent(detail[1]) };
+  const photo = raw.match(/^photos\/([^/]+)$/);
+  if (photo) return { page: 'puppies', photoId: decodeURIComponent(photo[1]) };
   return { page: pages[raw] ? raw : 'home' };
 }
 function setupPuppyDetail() {
@@ -112,7 +122,7 @@ function setupPuppyDetail() {
 }
 function render() {
   const route = currentRoute();
-  const page = route.detailSlug ? puppyDetail(route.detailSlug) : pages[route.page]();
+  const page = route.photoId ? photoDetail(route.photoId) : route.detailSlug ? puppyDetail(route.detailSlug) : pages[route.page]();
   document.getElementById('app').innerHTML = page;
   document.querySelectorAll('[data-route]').forEach(link => {
     link.classList.toggle('active', link.dataset.route === route.page);
