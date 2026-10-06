@@ -1,6 +1,10 @@
 # Great Dane photo collection
 
-The Puppies page uses a searchable gallery backed by `data/great-dane-photos.json`. The home page also uses photos from this collection. Photos are found through Openverse, a search service for openly licensed media. Building the manifest needs no API key, paid account, Node.js, or downloaded image files.
+The Available Puppies page has an inventory area plus a searchable reference gallery backed by `data/great-dane-photos.json`. The home page also uses photos from this collection. Photos are found through Openverse, a search service for openly licensed media. Building the gallery manifest needs no API key, paid account, Node.js, or downloaded image files.
+
+## Add real puppy listings
+
+Puppy cards and full same-site puppy profiles use `data/great-dane-puppies.js`. The file starts empty so the site does not invent puppies, photos, health details, or sale prices. When you have real listings, add entries with a unique `slug`, `name`, `gender`, `color_pattern`, the actual numeric `price`, `adoption_status` (`available`, `reserved`, or `adopted`), and one or more approved puppy photos (`{ url, alt }`). Optional fields include `date_of_birth` or confirmed `age_label`, `location`, `description`, `personality`, `health_info`, `health_guarantee`, `vaccination_info`, `registration_info`, `adoption_info`, and `availability_date`. Profile clicks change content inside this site; they do not send visitors to a separate listing website. Keep individual prices accurate. The available puppies page also displays a general U.S. market range of $1,000–$3,500+ from [CareCredit's Great Dane price guide](https://www.carecredit.com/well-u/pet-care/great-dane-dog-breed/); that estimate is not a quote for your puppies.
 
 ## Build or refresh the collection
 
