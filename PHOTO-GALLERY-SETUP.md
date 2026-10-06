@@ -1,6 +1,6 @@
 # Great Dane photo collection
 
-The Puppies and Dogs pages use a searchable gallery backed by `data/great-dane-photos.json`. Photos are found through Openverse, a search service for openly licensed media. Building the manifest needs no API key, paid account, Node.js, or downloaded image files.
+The Puppies page uses a searchable gallery backed by `data/great-dane-photos.json`. The home page also uses photos from this collection. Photos are found through Openverse, a search service for openly licensed media. Building the manifest needs no API key, paid account, Node.js, or downloaded image files.
 
 ## Build or refresh the collection
 
