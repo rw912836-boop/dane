@@ -35,8 +35,6 @@
     };
     const removeUnconfiguredPhotos = () => {
       app.querySelectorAll('img').forEach(image => image.remove());
-      const hero = app.querySelector('.hero');
-      if (hero) hero.style.backgroundImage = 'linear-gradient(90deg,#202720bd,#30362c48)';
       showEmptyGallery();
       document.body.classList.remove('photos-pending');
     };
@@ -58,10 +56,6 @@
       if (!featuredHomeImages.length) featuredHomeImages.push(photos[0]);
       let slot = route === 'home' ? 1 : ['puppies','dogs'].includes(route) ? BATCH : 0;
       const nextPhoto = () => photos[(slot++) % photos.length];
-      if (route === 'home') {
-        const hero = app.querySelector('.hero');
-        if (hero) hero.style.backgroundImage = `linear-gradient(90deg,#17221cbd 0%,#2330268c 42%,#26312720 100%),url("${featuredHomeImages[0].url}")`;
-      }
       app.querySelectorAll('img[data-pending-photo]').forEach((image, index) => {
         if (image.closest('.quote .photos')) { image.closest('.photos')?.remove(); return; }
         const photo = featuredHomeImages[index] || featuredHomeImages[0];
