@@ -243,28 +243,6 @@ window.greatDanePhotos = [
         "ageGroup":  "young"
     },
     {
-        "id":  "f9e89eb4-f628-4f53-88ee-3ab68b771020",
-        "url":  "https://live.staticflickr.com/7003/6696819115_2784af488d_b.jpg",
-        "thumbnail":  "https://api.openverse.org/v1/images/f9e89eb4-f628-4f53-88ee-3ab68b771020/thumb/",
-        "source":  "flickr",
-        "sourceUrl":  "https://www.flickr.com/photos/73829963@N06/6696819115",
-        "title":  "great-dane-puppies-3-weeks---Conan",
-        "alt":  "great-dane-puppies-3-weeks---Conan",
-        "description":  "",
-        "photographer":  "biggreatdanepuppies",
-        "photographerUrl":  "https://www.flickr.com/photos/73829963@N06",
-        "attribution":  "\"great-dane-puppies-3-weeks---Conan\" by biggreatdanepuppies is licensed under CC BY-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/2.0/.",
-        "license":  "CC BY-ND 2.0",
-        "licenseUrl":  "https://creativecommons.org/licenses/by-nd/2.0/",
-        "category":  "puppy",
-        "categories":  [
-                           "puppy",
-                           "small"
-                       ],
-        "color":  "unspecified",
-        "ageGroup":  "young"
-    },
-    {
         "id":  "4410c585-dbe3-4c43-9b8f-7851be2c1bb0",
         "url":  "https://live.staticflickr.com/7022/6696819571_a797aed512_b.jpg",
         "thumbnail":  "https://api.openverse.org/v1/images/4410c585-dbe3-4c43-9b8f-7851be2c1bb0/thumb/",
@@ -1707,29 +1685,6 @@ window.greatDanePhotos = [
         "ageGroup":  "adult"
     },
     {
-        "id":  "9f3c19ab-41d2-4ac6-8401-ef9f4c8e695f",
-        "url":  "https://live.staticflickr.com/2375/3536359757_86abcdb676_b.jpg",
-        "thumbnail":  "https://api.openverse.org/v1/images/9f3c19ab-41d2-4ac6-8401-ef9f4c8e695f/thumb/",
-        "source":  "flickr",
-        "sourceUrl":  "https://www.flickr.com/photos/27391161@N07/3536359757",
-        "title":  "Great Dane fawn ...",
-        "alt":  "Great Dane fawn ...",
-        "description":  "",
-        "photographer":  "Claudio Gennari ...\u0027Cogli l\u0027attimo ferma il tempo\u0027",
-        "photographerUrl":  "https://www.flickr.com/photos/27391161@N07",
-        "attribution":  "\"Great Dane fawn ...\" by Claudio Gennari ...\u0027Cogli l\u0027attimo ferma il tempo\u0027 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-        "license":  "CC BY 2.0",
-        "licenseUrl":  "https://creativecommons.org/licenses/by/2.0/",
-        "category":  "adult",
-        "categories":  [
-                           "adult",
-                           "large",
-                           "fawn"
-                       ],
-        "color":  "fawn",
-        "ageGroup":  "adult"
-    },
-    {
         "id":  "f70c112e-2ad3-4ecd-946e-91662a3e5dcd",
         "url":  "https://live.staticflickr.com/2262/2269859806_30629a19cb_b.jpg",
         "thumbnail":  "https://api.openverse.org/v1/images/f70c112e-2ad3-4ecd-946e-91662a3e5dcd/thumb/",
@@ -2618,75 +2573,6 @@ window.greatDanePhotos = [
         "ageGroup":  "adult"
     },
     {
-        "id":  "f4619010-057d-4972-8164-630cf234b19c",
-        "url":  "https://live.staticflickr.com/6076/6152307790_b495afba47_b.jpg",
-        "thumbnail":  "https://api.openverse.org/v1/images/f4619010-057d-4972-8164-630cf234b19c/thumb/",
-        "source":  "flickr",
-        "sourceUrl":  "https://www.flickr.com/photos/85979850@N00/6152307790",
-        "title":  "Great Dane puppy",
-        "alt":  "Great Dane puppy",
-        "description":  "",
-        "photographer":  "ewen and donabel",
-        "photographerUrl":  "https://www.flickr.com/photos/85979850@N00",
-        "attribution":  "\"Great Dane puppy\" by ewen and donabel is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-        "license":  "CC BY 2.0",
-        "licenseUrl":  "https://creativecommons.org/licenses/by/2.0/",
-        "category":  "puppy",
-        "categories":  [
-                           "puppy",
-                           "small",
-                           "portrait"
-                       ],
-        "color":  "unspecified",
-        "ageGroup":  "young"
-    },
-    {
-        "id":  "fc5f8b52-f612-468e-af25-3c43a9db9e1e",
-        "url":  "https://live.staticflickr.com/6195/6151774299_2e6d9f39cd_b.jpg",
-        "thumbnail":  "https://api.openverse.org/v1/images/fc5f8b52-f612-468e-af25-3c43a9db9e1e/thumb/",
-        "source":  "flickr",
-        "sourceUrl":  "https://www.flickr.com/photos/85979850@N00/6151774299",
-        "title":  "Great Dane",
-        "alt":  "Great Dane",
-        "description":  "",
-        "photographer":  "ewen and donabel",
-        "photographerUrl":  "https://www.flickr.com/photos/85979850@N00",
-        "attribution":  "\"Great Dane\" by ewen and donabel is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-        "license":  "CC BY 2.0",
-        "licenseUrl":  "https://creativecommons.org/licenses/by/2.0/",
-        "category":  "adult",
-        "categories":  [
-                           "adult",
-                           "large",
-                           "portrait"
-                       ],
-        "color":  "unspecified",
-        "ageGroup":  "adult"
-    },
-    {
-        "id":  "bc75fc28-611c-4d01-a022-665df41d5a8d",
-        "url":  "https://live.staticflickr.com/3279/2742084418_7698dbbbc0_b.jpg",
-        "thumbnail":  "https://api.openverse.org/v1/images/bc75fc28-611c-4d01-a022-665df41d5a8d/thumb/",
-        "source":  "flickr",
-        "sourceUrl":  "https://www.flickr.com/photos/27814181@N04/2742084418",
-        "title":  "Great Grannies Great Dane",
-        "alt":  "Great Grannies Great Dane",
-        "description":  "",
-        "photographer":  "Andy Cardiff",
-        "photographerUrl":  "https://www.flickr.com/photos/27814181@N04",
-        "attribution":  "\"Great Grannies Great Dane\" by Andy Cardiff is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
-        "license":  "CC BY 2.0",
-        "licenseUrl":  "https://creativecommons.org/licenses/by/2.0/",
-        "category":  "adult",
-        "categories":  [
-                           "adult",
-                           "large",
-                           "portrait"
-                       ],
-        "color":  "unspecified",
-        "ageGroup":  "adult"
-    },
-    {
         "id":  "51117967-7555-494a-a35c-c4640be081f9",
         "url":  "https://live.staticflickr.com/3630/3526530076_a7dd114e9b_b.jpg",
         "thumbnail":  "https://api.openverse.org/v1/images/51117967-7555-494a-a35c-c4640be081f9/thumb/",
@@ -2868,6 +2754,53 @@ window.greatDanePhotos = [
                            "harlequin"
                        ],
         "color":  "harlequin",
+        "ageGroup":  "adult"
+    },
+    {
+        "id":  "9f3c19ab-41d2-4ac6-8401-ef9f4c8e695f",
+        "url":  "https://live.staticflickr.com/2375/3536359757_86abcdb676_b.jpg",
+        "thumbnail":  "https://api.openverse.org/v1/images/9f3c19ab-41d2-4ac6-8401-ef9f4c8e695f/thumb/",
+        "source":  "flickr",
+        "sourceUrl":  "https://www.flickr.com/photos/27391161@N07/3536359757",
+        "title":  "Great Dane fawn ...",
+        "alt":  "Great Dane fawn ...",
+        "description":  "",
+        "photographer":  "Claudio Gennari ...\u0027Cogli l\u0027attimo ferma il tempo\u0027",
+        "photographerUrl":  "https://www.flickr.com/photos/27391161@N07",
+        "attribution":  "\"Great Dane fawn ...\" by Claudio Gennari ...\u0027Cogli l\u0027attimo ferma il tempo\u0027 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+        "license":  "CC BY 2.0",
+        "licenseUrl":  "https://creativecommons.org/licenses/by/2.0/",
+        "category":  "adult",
+        "categories":  [
+                           "adult",
+                           "large",
+                           "fawn"
+                       ],
+        "color":  "fawn",
+        "ageGroup":  "adult"
+    },
+    {
+        "id":  "0036ff22-cce7-4ce1-a1a6-13dffaae3cc5",
+        "url":  "https://live.staticflickr.com/1422/1392909841_7b2fef26f3.jpg",
+        "thumbnail":  "https://api.openverse.org/v1/images/0036ff22-cce7-4ce1-a1a6-13dffaae3cc5/thumb/",
+        "source":  "flickr",
+        "sourceUrl":  "https://www.flickr.com/photos/7326810@N08/1392909841",
+        "title":  "Great Dane Blue Merle",
+        "alt":  "Great Dane Blue Merle",
+        "description":  "",
+        "photographer":  "Just chaos",
+        "photographerUrl":  "https://www.flickr.com/photos/7326810@N08",
+        "attribution":  "\"Great Dane Blue Merle\" by Just chaos is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+        "license":  "CC BY 2.0",
+        "licenseUrl":  "https://creativecommons.org/licenses/by/2.0/",
+        "category":  "adult",
+        "categories":  [
+                           "adult",
+                           "large",
+                           "blue",
+                           "merle"
+                       ],
+        "color":  "blue",
         "ageGroup":  "adult"
     }
 ];

@@ -2,6 +2,7 @@ $ErrorActionPreference = 'Stop'
 $scriptDirectory = if ($PSScriptRoot) { $PSScriptRoot } else { Join-Path (Get-Location).Path 'scripts' }
 $root = Split-Path -Parent $scriptDirectory
 $output = Join-Path $root 'data\great-dane-photos.json'
+$javascriptOutput = Join-Path $root 'data\great-dane-photos.js'
 $userAgent = 'GreatDanePhotoGallery/1.0 (Openverse public image search)'
 $searches = @(
   @{ age = 'puppy'; q = 'great dane puppy' }, @{ age = 'puppy'; q = 'great dane pup' },
@@ -103,6 +104,8 @@ foreach ($photo in $photos) {
 
 $manifest = if ($reachablePhotos.Count) { ConvertTo-Json -InputObject @($reachablePhotos) -Depth 8 } else { '[]' }
 [System.IO.File]::WriteAllText($output, $manifest, [System.Text.UTF8Encoding]::new($false))
+$javascriptManifest = "window.greatDanePhotos = $manifest;`n"
+[System.IO.File]::WriteAllText($javascriptOutput, $javascriptManifest, [System.Text.UTF8Encoding]::new($false))
 $puppyCount = @($reachablePhotos | Where-Object category -eq 'puppy').Count
 $adultCount = $reachablePhotos.Count - $puppyCount
 Write-Host "Saved $($reachablePhotos.Count) unique, link-checked Openverse photos: $puppyCount puppy/small and $adultCount adult/large."
