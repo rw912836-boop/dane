@@ -40,8 +40,8 @@ function puppyCards(list) {
   }).join('')}</div>`;
 }
 
-const contactForm = () => `<form class="contact-form"><div class="form-grid"><label>Your name<input name="name" autocomplete="name" required></label><label>Email address<input name="email" type="email" autocomplete="email" required></label><label>Phone (optional)<input name="phone" type="tel" autocomplete="tel"></label><label>What can we help with?<select name="subject"><option>Tell me about available puppies</option><option>Ask about the breed</option><option>Plan a visit</option><option>Other question</option></select></label><label class="wide">Message<textarea name="message" rows="5" required></textarea></label><div class="wide"><button class="button" type="submit">Send a message</button><p class="form-notice" aria-live="polite"></p></div></div></form>`;
-const applicationForm = () => `<form class="contact-form application-form"><div class="form-grid"><label>Your name<input name="name" autocomplete="name" required></label><label>Email address<input name="email" type="email" autocomplete="email" required></label><label>Phone<input name="phone" type="tel" autocomplete="tel" required></label><label>City and state<input name="location" autocomplete="address-level2" required></label><label>Have you owned a Great Dane before?<select name="experience"><option>Yes</option><option>No</option></select></label><label>Home type<select name="home"><option>House</option><option>Apartment</option><option>Other</option></select></label><label class="wide">Tell us about your home and the companion you are looking for<textarea name="message" rows="5" required></textarea></label><div class="wide"><button class="button" type="submit">Continue by email</button><p class="form-notice" aria-live="polite"></p></div></div></form>`;
+const contactForm = () => `<form class="contact-form"><input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none"><div class="form-grid"><label>Your name<input name="name" autocomplete="name" required></label><label>Email address<input name="email" type="email" autocomplete="email" required></label><label>Phone (optional)<input name="phone" type="tel" autocomplete="tel"></label><label>What can we help with?<select name="subject"><option>Tell me about available puppies</option><option>Ask about the breed</option><option>Plan a visit</option><option>Other question</option></select></label><label class="wide">Message<textarea name="message" rows="5" required></textarea></label><div class="wide"><button class="button" type="submit">Send a message</button><p class="form-notice" aria-live="polite"></p></div></div></form>`;
+const applicationForm = () => `<form class="contact-form application-form"><input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none"><div class="form-grid"><label>Your name<input name="name" autocomplete="name" required></label><label>Email address<input name="email" type="email" autocomplete="email" required></label><label>Phone<input name="phone" type="tel" autocomplete="tel" required></label><label>City and state<input name="location" autocomplete="address-level2" required></label><label>Have you owned a Great Dane before?<select name="experience"><option>Yes</option><option>No</option></select></label><label>Home type<select name="home"><option>House</option><option>Apartment</option><option>Other</option></select></label><label class="wide">Tell us about your home and the companion you are looking for<textarea name="message" rows="5" required></textarea></label><div class="wide"><button class="button" type="submit">Send application</button><p class="form-notice" aria-live="polite"></p></div></div></form>`;
 
 const home = () => `
   <section class="hero"><div class="hero-shade"></div><div class="wrap hero-copy">${eyebrow('Family-raised Great Danes · Waterford, Pennsylvania')}<h1>A gentle giant<br>to call your own.</h1><p>Thoughtfully raised Great Danes, cared for with patience from their first days.</p><div class="button-row"><a class="button" href="#puppies">View available puppies</a><a class="button button-light" href="#about">Get to know us</a></div></div><span class="hero-caption">A little more room for a lot of love.</span></section>
@@ -74,7 +74,7 @@ function puppyDetail(slug) {
 const about = () => `${pageHero('About Shade of Grey', 'A family passion for Great Danes, here in Waterford, Pennsylvania, since 2001.')}<section class="section"><div class="wrap welcome-grid about-grid"><div>${eyebrow('Our home is their home')}<h2>Room to grow, time to connect.</h2><p>Located just south of Erie, our home and kennel are within easy reach of Pittsburgh, Buffalo, and Cleveland. Our Great Danes spend time with people, enjoy outdoor space, and receive patient training and socialization.</p><p>We also have a heated indoor facility for colder months. Expectant mothers give birth in our home, where they can be closely monitored and cared for.</p><a class="text-link" href="#contact">Come meet us <span>→</span></a></div><img class="welcome-image" data-pending-photo="" alt="Great Dane enjoying time outdoors"></div></section>`;
 const breedInfo = () => `${pageHero('Is a Great Dane right for you?', 'A little information to help you picture life with this remarkable giant breed.')}<section class="section section-soft"><div class="wrap"><div class="section-heading">${eyebrow('The breed at a glance')}<h2>Large in size. Part of the family.</h2></div><div class="info-grid"><article><h3>Space & daily life</h3><p>Great Danes grow into very large dogs. Think ahead about room at home, travel, supplies, and the cost of caring for a giant breed.</p></article><article><h3>Training & socialization</h3><p>Early, positive training helps build good manners and makes daily life easier as your puppy grows.</p></article><article><h3>Exercise & companionship</h3><p>Plan for regular walks, play, and time together. Great Danes need a family prepared to include them in everyday life.</p></article></div><div class="center"><a class="button" href="#contact">Ask us about Great Danes</a></div></div></section>`;
 const adoption = () => `${pageHero('The adoption process', 'We want each puppy to find a prepared, caring home. Here is how to begin.')}<section class="section"><div class="content-narrow"><div class="process-step"><span>01</span><div><h2>Start a conversation</h2><p>Tell us a little about your home, your experience with dogs, and what you hope for in a companion.</p></div></div><div class="process-step"><span>02</span><div><h2>Get to know the breed</h2><p>We will talk through the needs of a growing Great Dane and answer your questions about our puppies.</p></div></div><div class="process-step"><span>03</span><div><h2>Plan the next step</h2><p>If it feels like a good fit, we can discuss availability, visits, timing, and the details of bringing your puppy home.</p></div></div><a class="button" href="#contact">Ask about adoption</a></div></section>`;
-const adoptionApplication = () => `${pageHero('Adoption application', 'Start by telling us a little about yourself and the home you can offer a Great Dane.')}<section class="section"><div class="wrap application-wrap"><div class="application-intro">${eyebrow('Let’s find the right fit')}<h2>A few details to begin.</h2><p>When you submit, your email app will open with your answers addressed to our contact email. We will follow up to talk about availability and next steps.</p></div><div class="form-card">${applicationForm()}</div></div></section>`;
+const adoptionApplication = () => `${pageHero('Adoption application', 'Start by telling us a little about yourself and the home you can offer a Great Dane.')}<section class="section"><div class="wrap application-wrap"><div class="application-intro">${eyebrow('Let’s find the right fit')}<h2>A few details to begin.</h2><p>When you submit, your application will be sent to our contact email. We will follow up to talk about availability and next steps.</p></div><div class="form-card">${applicationForm()}</div></div></section>`;
 const blogArticles = [
   ['Preparing for a giant-breed puppy', 'Make room for a growing dog, choose sturdy everyday supplies, and plan how the new puppy will join your family routine.'],
   ['Starting training with patience', 'Short, positive practice and steady routines help puppies learn as they settle into a new home.'],
@@ -150,14 +150,35 @@ function render() {
       if (message) message.value = `I would like to apply to adopt ${puppy.name}. Please contact me with the next steps.`;
     }
   }
-  document.querySelectorAll('.contact-form').forEach(form => form.addEventListener('submit', event => {
+  document.querySelectorAll('.contact-form').forEach(form => form.addEventListener('submit', async event => {
     event.preventDefault();
+    const notice = form.querySelector('.form-notice');
+    const submitButton = form.querySelector('button[type="submit"]');
     const fields = Object.fromEntries(new FormData(form).entries());
-    const subject = fields.subject || 'Great Dane puppy inquiry';
-    const body = Object.entries(fields).map(([key, value]) => `${key}: ${value}`).join('\n');
-    const mailto = `mailto:info@daneowernsandlovers.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    form.querySelector('.form-notice').textContent = 'Opening your email app so you can send your message.';
-    window.location.href = mailto;
+    fields._replyto = fields.email;
+    fields._subject = form.classList.contains('application-form')
+      ? 'New Great Dane adoption application'
+      : (fields.subject || 'Great Dane puppy inquiry');
+    fields._template = 'table';
+    submitButton.disabled = true;
+    notice.textContent = 'Sending your message...';
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/info@daneowernsandlovers.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(fields)
+      });
+      const result = await response.json();
+      if (!response.ok || result.success === false || result.success === 'false') {
+        throw new Error(result.message || 'Form submission failed');
+      }
+      form.reset();
+      notice.textContent = 'Thank you. Your message was sent to our team.';
+    } catch (error) {
+      notice.textContent = 'We could not send your message. Please email info@daneowernsandlovers.com or call (202) 681-5722.';
+    } finally {
+      submitButton.disabled = false;
+    }
   }));
   window.scrollTo(0, 0);
 }
