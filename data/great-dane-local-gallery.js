@@ -1,6 +1,6 @@
 window.greatDaneLocalGallery = [
   {
-    "src": "assets/gallery/1791291031806.png",
+    "src": "assets/gallery-original/1791291031806.jpg",
     "alt": "Great Dane puppy photo 2",
     "price": 985,
     "name": "Sterling",
@@ -10,7 +10,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291053840.png",
+    "src": "assets/gallery-original/1791291053840.jpg",
     "alt": "Great Dane puppy photo 3",
     "price": 825,
     "name": "Grayson",
@@ -20,7 +20,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/IMG_20261006_131832_801.png",
+    "src": "assets/gallery-original/IMG_20261006_131832_801.jpg",
     "alt": "Great Dane puppy photo 20",
     "price": 1080,
     "name": "Slate",
@@ -30,7 +30,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0002.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0002.jpg",
     "alt": "Great Dane puppy photo 26",
     "price": 950,
     "name": "Stone",
@@ -40,7 +40,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0025.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0025.jpg",
     "alt": "Great Dane puppy photo 39",
     "price": 895,
     "name": "Shadow",
@@ -50,7 +50,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/animalmedicalsurgical-20261006-0001.png",
+    "src": "assets/gallery-original/animalmedicalsurgical-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 13",
     "price": 975,
     "name": "Silas",
@@ -60,7 +60,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/hamideaghapoor-20261006-0001.png",
+    "src": "assets/gallery-original/hamideaghapoor-20261006-0001.webp",
     "alt": "Great Dane puppy photo 17",
     "price": 855,
     "name": "Freckles",
@@ -70,7 +70,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/claudiabohemica-20261006-0001.png",
+    "src": "assets/gallery-original/claudiabohemica-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 14",
     "price": 935,
     "name": "Marble",
@@ -80,7 +80,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0004.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0004.jpg",
     "alt": "Great Dane puppy photo 28",
     "price": 995,
     "name": "Domino",
@@ -90,7 +90,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/sandytailsk9-20261006-0001.png",
+    "src": "assets/gallery-original/sandytailsk9-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 42",
     "price": 1165,
     "name": "Pixel",
@@ -100,7 +100,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0017.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0017.jpg",
     "alt": "Great Dane puppy photo 35",
     "price": 1060,
     "name": "Bandit",
@@ -110,7 +110,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/mdpawsvet-20261006-0001.png",
+    "src": "assets/gallery-original/mdpawsvet-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 40",
     "price": 875,
     "name": "Checkers",
@@ -120,7 +120,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/IMG_20261006_131833_611.png",
+    "src": "assets/gallery-original/IMG_20261006_131833_611.jpg",
     "alt": "Great Dane puppy photo 22",
     "price": 1095,
     "name": "Maverick",
@@ -130,7 +130,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291412193.png",
+    "src": "assets/gallery-original/1791291412193.jpg",
     "alt": "Great Dane puppy photo 10",
     "price": 815,
     "name": "Titan",
@@ -140,7 +140,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0012.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0012.jpg",
     "alt": "Great Dane puppy photo 30",
     "price": 1055,
     "name": "Atlas",
@@ -150,7 +150,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291312630.png",
+    "src": "assets/gallery-original/1791291312630.jpg",
     "alt": "Great Dane puppy photo 8",
     "price": 1030,
     "name": "Zeus",
@@ -160,7 +160,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0013.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0013.jpg",
     "alt": "Great Dane puppy photo 31",
     "price": 940,
     "name": "Thor",
@@ -170,7 +170,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291482522.png",
+    "src": "assets/gallery-original/1791291482522.jpg",
     "alt": "Great Dane puppy photo 12",
     "price": 1185,
     "name": "Duke",
@@ -180,7 +180,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0003.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0003.jpg",
     "alt": "Great Dane puppy photo 27",
     "price": 890,
     "name": "Luna",
@@ -190,7 +190,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291453182.png",
+    "src": "assets/gallery-original/1791291453182.jpg",
     "alt": "Great Dane puppy photo 11",
     "price": 1120,
     "name": "Nova",
@@ -200,7 +200,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0001.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0001.jpg",
     "alt": "Great Dane puppy photo 25",
     "price": 1135,
     "name": "Cosmo",
@@ -210,7 +210,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/ranveersingh2709-20261006-0001.png",
+    "src": "assets/gallery-original/ranveersingh2709-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 41",
     "price": 860,
     "name": "Willow",
@@ -220,7 +220,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291189960.png",
+    "src": "assets/gallery-original/1791291189960.jpg",
     "alt": "Great Dane puppy photo 6",
     "price": 1195,
     "name": "River",
@@ -230,7 +230,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0022.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0022.jpg",
     "alt": "Great Dane puppy photo 36",
     "price": 1175,
     "name": "Storm",
@@ -240,7 +240,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291081422.png",
+    "src": "assets/gallery-original/1791291081422.jpg",
     "alt": "Great Dane puppy photo 4",
     "price": 1150,
     "name": "Winston",
@@ -250,7 +250,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261006-0001.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 24",
     "price": 1075,
     "name": "Otis",
@@ -260,7 +260,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0014.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0014.jpg",
     "alt": "Great Dane puppy photo 32",
     "price": 1110,
     "name": "Gemma",
@@ -270,7 +270,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/IMG_20261006_131833_293.png",
+    "src": "assets/gallery-original/IMG_20261006_131833_293.jpg",
     "alt": "Great Dane puppy photo 21",
     "price": 1010,
     "name": "Bruno",
@@ -280,7 +280,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791290992998.png",
+    "src": "assets/gallery-original/1791290992998.jpg",
     "alt": "Great Dane puppy photo 1",
     "price": 925,
     "name": "Cleo",
@@ -290,7 +290,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0009.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0009.jpg",
     "alt": "Great Dane puppy photo 29",
     "price": 955,
     "name": "Jasper",
@@ -300,7 +300,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/greatdane.familydog-20261006-0001.png",
+    "src": "assets/gallery-original/greatdane.familydog-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 16",
     "price": 945,
     "sex": "Not provided",
@@ -309,7 +309,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0016.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0016.jpg",
     "alt": "Great Dane puppy photo 34",
     "price": 1050,
     "sex": "Not provided",
@@ -318,7 +318,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0024.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0024.jpg",
     "alt": "Great Dane puppy photo 38",
     "price": 1100,
     "sex": "Not provided",
@@ -327,7 +327,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0015.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0015.jpg",
     "alt": "Great Dane puppy photo 33",
     "price": 800,
     "sex": "Not provided",
@@ -336,7 +336,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291390002.png",
+    "src": "assets/gallery-original/1791291390002.jpg",
     "alt": "Great Dane puppy photo 9",
     "price": 910,
     "sex": "Not provided",
@@ -345,7 +345,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/hari_haran__28-20261006-0001.png",
+    "src": "assets/gallery-original/hari_haran__28-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 18",
     "price": 820,
     "sex": "Not provided",
@@ -354,7 +354,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291227733.png",
+    "src": "assets/gallery-original/1791291227733.jpg",
     "alt": "Great Dane puppy photo 7",
     "price": 1130,
     "sex": "Not provided",
@@ -363,7 +363,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lordsandladiesfamilydanes-20261007-0023.png",
+    "src": "assets/gallery-original/lordsandladiesfamilydanes-20261007-0023.jpg",
     "alt": "Great Dane puppy photo 37",
     "price": 1025,
     "sex": "Not provided",
@@ -372,7 +372,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/harleyraedaneandangusthedane-20261006-0001.png",
+    "src": "assets/gallery-original/harleyraedaneandangusthedane-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 19",
     "price": 905,
     "sex": "Not provided",
@@ -381,7 +381,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/1791291149551.png",
+    "src": "assets/gallery-original/1791291149551.jpg",
     "alt": "Great Dane puppy photo 5",
     "price": 1200,
     "sex": "Not provided",
@@ -390,7 +390,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/lmwat-20261006-0001.png",
+    "src": "assets/gallery-original/lmwat-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 23",
     "price": 965,
     "sex": "Not provided",
@@ -399,7 +399,7 @@ window.greatDaneLocalGallery = [
     "availability": "Contact to confirm"
   },
   {
-    "src": "assets/gallery/generalboothvet-20261006-0001.png",
+    "src": "assets/gallery-original/generalboothvet-20261006-0001.jpg",
     "alt": "Great Dane puppy photo 15",
     "price": 990,
     "sex": "Not provided",

@@ -21,10 +21,10 @@ window.greatDanePuppies = [
     adoption_info: 'We match each puppy with families who are prepared for the size, temperament, and daily needs of a Great Dane.',
     availability_date: '2026-10-15',
     photos: [
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0018.png', alt: 'Atlas, harlequin Great Dane puppy sitting on a soft blanket' },
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0019.png', alt: 'Atlas, harlequin Great Dane puppy, looking toward the camera' },
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0020.png', alt: 'Atlas, harlequin Great Dane puppy sitting on a blanket' },
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0021.png', alt: 'Atlas, harlequin Great Dane puppy sitting outdoors' }
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0018.jpg', alt: 'Atlas, harlequin Great Dane puppy sitting on a soft blanket' },
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0019.jpg', alt: 'Atlas, harlequin Great Dane puppy, looking toward the camera' },
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0020.jpg', alt: 'Atlas, harlequin Great Dane puppy sitting on a blanket' },
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0021.jpg', alt: 'Atlas, harlequin Great Dane puppy sitting outdoors' }
     ]
   },
   {
@@ -47,8 +47,8 @@ window.greatDanePuppies = [
     adoption_info: 'Luna is currently reserved and may be considered for a limited waitlist depending on family fit.',
     availability_date: '2026-10-20',
     photos: [
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0010.png', alt: 'Luna, black Great Dane puppy with a small white chest marking' },
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0011.png', alt: 'Luna, black Great Dane puppy sitting on a blanket' }
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0010.jpg', alt: 'Luna, black Great Dane puppy with a small white chest marking' },
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0011.jpg', alt: 'Luna, black Great Dane puppy sitting on a blanket' }
     ]
   },
   {
@@ -71,8 +71,8 @@ window.greatDanePuppies = [
     adoption_info: 'We welcome conversations from families who are ready to include a giant breed in daily life.',
     availability_date: '2026-10-18',
     photos: [
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0005.png', alt: 'Oakley, mantle Great Dane puppy with white markings' },
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0006.png', alt: 'Oakley, mantle Great Dane puppy looking to the side' },
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0005.jpg', alt: 'Oakley, mantle Great Dane puppy with white markings' },
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0006.jpg', alt: 'Oakley, mantle Great Dane puppy looking to the side' },
       { url: 'assets/puppies/oakley-photo-03.png', alt: 'Oakley, mantle Great Dane puppy standing for a portrait' },
       { url: 'assets/puppies/oakley-photo-04.png', alt: 'Oakley, mantle Great Dane puppy standing and looking up' }
     ]
@@ -97,8 +97,8 @@ window.greatDanePuppies = [
     adoption_info: 'Iris has found her forever home and is no longer available for adoption.',
     availability_date: '2026-10-09',
     photos: [
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0007.png', alt: 'Iris, blue-merle Great Dane puppy sitting on a blanket' },
-      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0008.png', alt: 'Iris, blue-merle Great Dane puppy looking up' }
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0007.jpg', alt: 'Iris, blue-merle Great Dane puppy sitting on a blanket' },
+      { url: 'assets/puppies/lordsandladiesfamilydanes-20261007-0008.jpg', alt: 'Iris, blue-merle Great Dane puppy looking up' }
     ]
   }
 ];
