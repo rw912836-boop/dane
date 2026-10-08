@@ -120,23 +120,16 @@ img{display:block;max-width:100%}
 .photo-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px #382e1a18}
 .photo-image-link{position:relative;display:block;width:100%;padding:0;overflow:hidden;aspect-ratio:4/3;border:0;background:#fff;cursor:pointer}
 .photo-card img{width:100%;height:100%;object-fit:contain;background:#fff}
-.photo-card-copy{padding:18px 20px 20px;background:#fff}
-.photo-card-copy h3{margin:0 0 14px;font:500 23px/1.25 var(--serif);color:var(--ink)}
-.photo-card-copy dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0 0 14px}
-.photo-card-copy dl div{padding:10px 12px;border:1px solid #eee8df;border-radius:8px;background:#fff}
-.photo-card-copy dt,.photo-card-price span{color:var(--muted);font-size:11px;letter-spacing:.04em;text-transform:uppercase}
-.photo-card-copy dd{margin:4px 0 0;color:var(--ink);font-size:14px;font-weight:600}
-.photo-card-price{display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 8px;margin:0 0 14px;padding:12px;border:1px solid #e7dfd4;border-radius:8px;background:#fff}
-.photo-card-price span{grid-column:1/-1}
-.photo-card-price strong{font:600 19px/1.25 var(--sans);color:var(--ink)}
-.photo-card-price a,.photo-card-link{color:var(--rust-dark);font-size:13px;font-weight:700;text-underline-offset:3px}
-.photo-card-link{display:inline-block}
 .photo-card:hover img{transform:none}
 .photo-category-badge{display:inline-flex;align-items:center;width:max-content;padding:7px 14px;border:1px solid #b9e4c6;border-radius:99px;background:#eaffef;color:#176137;font:700 14px/1.2 var(--sans)}
 .photo-image-link .photo-category-badge{position:absolute;top:14px;right:14px}
-.photo-attribution{display:flex;flex-direction:column;gap:5px;padding:15px 18px 17px;color:var(--muted);font-size:13px;line-height:1.5}
-.photo-title-link{color:#252a24;font:500 23px/1.25 var(--serif)}
+.photo-attribution{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:15px 18px 17px;color:var(--muted);font-size:13px;line-height:1.5;background:#fff}
+.photo-title-link{margin:0;color:#252a24;font:500 23px/1.25 var(--serif)}
 .photo-attribution .photo-license{width:max-content;color:var(--rust-dark);text-decoration:underline;text-underline-offset:2px}
+.photo-listing-price{display:flex;flex-direction:column;gap:2px;margin-top:3px;color:var(--ink)}
+.photo-listing-price span{color:var(--muted);font-size:10px;letter-spacing:.09em;text-transform:uppercase}
+.photo-listing-price strong{font:600 18px/1.3 var(--sans);color:var(--rust-dark)}
+.photo-card-link{margin-top:2px;color:var(--rust-dark);font-size:12px;font-weight:700;text-decoration:none}
 .site-photo-link{display:block;overflow:hidden;border-radius:14px}
 .site-photo-link img{display:block}
 .photo-detail{padding-top:45px}
