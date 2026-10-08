@@ -40,8 +40,9 @@ img{display:block;max-width:100%}
 .section-soft{background:var(--cream)}
 .welcome-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(42px,7vw,92px)}
 .welcome-image{width:100%;height:480px;object-fit:contain;border-radius:3px;background:#fff}
-.welcome-grid h2,.section-heading h2,.content-narrow h2,.contact-grid h2,.story-text h2{margin:12px 0 18px;font:500 clamp(36px,4vw,52px)/1.16 var(--serif);letter-spacing:-.025em}
-.welcome-grid p,.section-heading p,.content-narrow p,.contact-grid>div>p,.story-text p,.stat-box p,.info-item p{color:var(--muted);font-size:16px;line-height:1.9}
+.home-welcome-copy{max-width:960px;margin-inline:auto}
+.welcome-grid h2,.home-welcome-copy h2,.section-heading h2,.content-narrow h2,.contact-grid h2,.story-text h2{margin:12px 0 18px;font:500 clamp(36px,4vw,52px)/1.16 var(--serif);letter-spacing:-.025em}
+.welcome-grid p,.home-welcome-copy p,.section-heading p,.content-narrow p,.contact-grid>div>p,.story-text p,.stat-box p,.info-item p{color:var(--muted);font-size:16px;line-height:1.9}
 .text-link{display:inline-flex;align-items:center;gap:10px;margin-top:14px;color:var(--rust-dark);font-size:13px;font-weight:700}
 .text-link span{font-size:18px;transition:transform .2s}.text-link:hover span{transform:translateX(4px)}
 .story-panel-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:start}
