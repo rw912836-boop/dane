@@ -29,7 +29,7 @@ function priceText(price) {
   if (typeof price !== 'number' || !Number.isFinite(price)) return '';
   return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(price);
 }
-const statusText = status => ({ available: 'Available', reserved: 'Reserved', adopted: 'Adopted' }[status] || 'Ask us');
+const statusText = status => ({ available: 'Available', reserved: 'Reserved', adopted: 'Adopted' }[status] || 'Contact to confirm');
 
 function puppyCards(list) {
   if (!list.length) return `<div class="empty-catalog"><div class="empty-mark">SG</div><h2>No puppy profiles are posted right now.</h2><p>Contact us to ask about current availability and upcoming litters.</p><a class="button" href="#contact">Ask about puppies</a></div>`;
@@ -60,7 +60,20 @@ function puppyDetail(slug) {
   const photos = puppyPhotos(puppy);
   const age = ageText(puppy);
   const prettyDate = value => value ? new Date(`${value}T00:00:00`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
-  const specifications = [['Gender', puppy.gender], ['Age', age], ['Date of birth', prettyDate(puppy.date_of_birth)], ['Color / pattern', puppy.color_pattern], ['Location', puppy.location]];
+  const normalizedSex = String(puppy.gender || '').toLowerCase();
+  const sex = normalizedSex === 'male' ? 'Male' : normalizedSex === 'female' ? 'Female' : 'Not provided';
+  const colorPattern = typeof puppy.color_pattern === 'string' && puppy.color_pattern.trim()
+    ? puppy.color_pattern.trim()
+    : 'Not provided';
+  const availability = statusText(puppy.adoption_status);
+  const specifications = [
+    ['Sex', sex],
+    ['Age', age || 'Puppy; exact age not provided'],
+    ['Color / Pattern', colorPattern],
+    ['Availability', availability],
+    ['Date of birth', prettyDate(puppy.date_of_birth)],
+    ['Location', puppy.location]
+  ];
   const extraDetails = [['Personality & temperament', puppy.personality], ['Health information', puppy.health_info], ['Health guarantee', puppy.health_guarantee], ['Vaccination information', puppy.vaccination_info], ['Registration', puppy.registration_info]].filter(([, value]) => value);
   const statusAction = puppy.adoption_status === 'adopted'
     ? `<div class="status-message"><p>${esc(puppy.name)} has found a home. View other Great Dane puppy profiles.</p><a class="text-link" href="#puppies">See available puppies <span>→</span></a></div>`

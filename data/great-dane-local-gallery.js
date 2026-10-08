@@ -46,7 +46,7 @@ window.greatDaneLocalGallery = [
     "name": "Shadow",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Fawn coat",
+    "colorPattern": "Harlequin (white coat with dark patches)",
     "availability": "Contact to confirm"
   },
   {
@@ -86,7 +86,7 @@ window.greatDaneLocalGallery = [
     "name": "Domino",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Black coat",
+    "colorPattern": "Harlequin (white coat with black patches)",
     "availability": "Contact to confirm"
   },
   {
@@ -136,7 +136,7 @@ window.greatDaneLocalGallery = [
     "name": "Titan",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Fawn coat with dark patches",
+    "colorPattern": "Harlequin (white coat with dark patches)",
     "availability": "Contact to confirm"
   },
   {
@@ -146,7 +146,7 @@ window.greatDaneLocalGallery = [
     "name": "Atlas",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Fawn coat",
+    "colorPattern": "Harlequin (white coat with black patches)",
     "availability": "Contact to confirm"
   },
   {
@@ -156,7 +156,7 @@ window.greatDaneLocalGallery = [
     "name": "Zeus",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Blue-gray spotted coat",
+    "colorPattern": "Blue merle with white markings",
     "availability": "Contact to confirm"
   },
   {
@@ -226,7 +226,7 @@ window.greatDaneLocalGallery = [
     "name": "River",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Black-and-white spotted coat",
+    "colorPattern": "Black coat with white markings",
     "availability": "Contact to confirm"
   },
   {
@@ -236,7 +236,7 @@ window.greatDaneLocalGallery = [
     "name": "Storm",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Fawn coat",
+    "colorPattern": "Harlequin (white coat with dark patches)",
     "availability": "Contact to confirm"
   },
   {
@@ -246,7 +246,7 @@ window.greatDaneLocalGallery = [
     "name": "Winston",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "White coat with black patches",
+    "colorPattern": "Fawn coat with a black mask",
     "availability": "Contact to confirm"
   },
   {
@@ -266,7 +266,7 @@ window.greatDaneLocalGallery = [
     "name": "Gemma",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Fawn-and-white coat with dark patches",
+    "colorPattern": "Harlequin (white coat with dark patches)",
     "availability": "Contact to confirm"
   },
   {
@@ -296,7 +296,7 @@ window.greatDaneLocalGallery = [
     "name": "Jasper",
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Fawn coat",
+    "colorPattern": "Not provided",
     "availability": "Contact to confirm"
   },
   {
@@ -323,7 +323,7 @@ window.greatDaneLocalGallery = [
     "price": 1100,
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Fawn coat",
+    "colorPattern": "Fawn coat with a black mask",
     "availability": "Contact to confirm"
   },
   {
@@ -368,7 +368,7 @@ window.greatDaneLocalGallery = [
     "price": 1025,
     "sex": "Not provided",
     "age": "Puppy; exact age not provided",
-    "colorPattern": "Fawn-and-white coat",
+    "colorPattern": "Fawn coat with a black mask",
     "availability": "Contact to confirm"
   },
   {
