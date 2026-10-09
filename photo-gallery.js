@@ -1,6 +1,6 @@
 (() => {
-  const BATCH = 30;
   const photos = Array.isArray(window.greatDaneLocalGallery) ? window.greatDaneLocalGallery : [];
+  const BATCH = photos.length;
   let limit = BATCH;
 
   function draw(host) {
