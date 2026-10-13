@@ -1,26 +1,6 @@
 window.greatDaneLocalGallery =
 [
   {
-    "src":  "assets/gallery-edited/edited-01.jpeg",
-    "alt":  "Great Dane puppy photo 20",
-    "price":  1239,
-    "name":  "Slate",
-    "sex":  "Not provided",
-    "age":  "Puppy; exact age not provided",
-    "colorPattern":  "Blue-gray coat with dark mottling",
-    "availability":  "Contact to confirm"
-},
-  {
-    "src":  "assets/gallery-edited/edited-02.jpeg",
-    "alt":  "Great Dane puppy photo 26",
-    "price":  1259,
-    "name":  "Stone",
-    "sex":  "Not provided",
-    "age":  "Puppy; exact age not provided",
-    "colorPattern":  "Black-and-white spotted coat",
-    "availability":  "Contact to confirm"
-},
-  {
     "src":  "assets/gallery-edited/edited-03.jpeg",
     "alt":  "Great Dane puppy photo 39",
     "price":  1278,
@@ -28,36 +8,6 @@ window.greatDaneLocalGallery =
     "sex":  "Not provided",
     "age":  "Puppy; exact age not provided",
     "colorPattern":  "Harlequin (white coat with dark patches)",
-    "availability":  "Contact to confirm"
-},
-  {
-    "src":  "assets/gallery-edited/edited-04.jpeg",
-    "alt":  "Great Dane puppy photo 13",
-    "price":  1298,
-    "name":  "Silas",
-    "sex":  "Not provided",
-    "age":  "Puppy; exact age not provided",
-    "colorPattern":  "Black-and-white spotted coat",
-    "availability":  "Contact to confirm"
-},
-  {
-    "src":  "assets/gallery-edited/edited-05.jpeg",
-    "alt":  "Great Dane puppy photo 14",
-    "price":  1337,
-    "name":  "Marble",
-    "sex":  "Not provided",
-    "age":  "Puppy; exact age not provided",
-    "colorPattern":  "Black-and-white spotted coat",
-    "availability":  "Contact to confirm"
-},
-  {
-    "src":  "assets/gallery-edited/edited-06.jpeg",
-    "alt":  "Great Dane puppy photo 28",
-    "price":  1356,
-    "name":  "Domino",
-    "sex":  "Not provided",
-    "age":  "Puppy; exact age not provided",
-    "colorPattern":  "Harlequin (white coat with black patches)",
     "availability":  "Contact to confirm"
 },
   {
@@ -111,16 +61,6 @@ window.greatDaneLocalGallery =
     "availability":  "Contact to confirm"
 },
   {
-    "src":  "assets/gallery-edited/edited-12.jpeg",
-    "alt":  "Great Dane puppy photo 11",
-    "price":  1571,
-    "name":  "Nova",
-    "sex":  "Not provided",
-    "age":  "Puppy; exact age not provided",
-    "colorPattern":  "Blue-gray coat with darker patches",
-    "availability":  "Contact to confirm"
-},
-  {
     "src":  "assets/gallery-edited/edited-13.jpeg",
     "alt":  "Great Dane puppy photo 25",
     "price":  1590,
@@ -138,16 +78,6 @@ window.greatDaneLocalGallery =
     "sex":  "Not provided",
     "age":  "Puppy; exact age not provided",
     "colorPattern":  "Harlequin (white coat with dark patches)",
-    "availability":  "Contact to confirm"
-},
-  {
-    "src":  "assets/gallery-edited/edited-15.jpeg",
-    "alt":  "Great Dane puppy photo 24",
-    "price":  1688,
-    "name":  "Otis",
-    "sex":  "Not provided",
-    "age":  "Puppy; exact age not provided",
-    "colorPattern":  "Black coat with white chest",
     "availability":  "Contact to confirm"
 },
   {
@@ -211,16 +141,6 @@ window.greatDaneLocalGallery =
     "name":  "Bear"
 },
   {
-    "src":  "assets/gallery-edited/edited-22.jpeg",
-    "alt":  "Great Dane puppy photo 33",
-    "price":  1844,
-    "sex":  "Not provided",
-    "age":  "Puppy; exact age not provided",
-    "colorPattern":  "Black coat",
-    "availability":  "Contact to confirm",
-    "name":  "Hazel"
-},
-  {
     "src":  "assets/gallery-edited/edited-23.jpeg",
     "alt":  "Great Dane puppy photo 37",
     "price":  1922,
@@ -239,5 +159,85 @@ window.greatDaneLocalGallery =
     "colorPattern":  "Blue-gray coat with darker patches",
     "availability":  "Contact to confirm",
     "name":  "Pepper"
+},
+  {
+    "src":  "assets/gallery-edited/edited-02.jpeg",
+    "alt":  "Great Dane puppy photo 26",
+    "price":  1259,
+    "name":  "Stone",
+    "sex":  "Not provided",
+    "age":  "Puppy; exact age not provided",
+    "colorPattern":  "Black-and-white spotted coat",
+    "availability":  "Contact to confirm"
+},
+  {
+    "src":  "assets/gallery-edited/edited-04.jpeg",
+    "alt":  "Great Dane puppy photo 13",
+    "price":  1298,
+    "name":  "Silas",
+    "sex":  "Not provided",
+    "age":  "Puppy; exact age not provided",
+    "colorPattern":  "Black-and-white spotted coat",
+    "availability":  "Contact to confirm"
+},
+  {
+    "src":  "assets/gallery-edited/edited-05.jpeg",
+    "alt":  "Great Dane puppy photo 14",
+    "price":  1337,
+    "name":  "Marble",
+    "sex":  "Not provided",
+    "age":  "Puppy; exact age not provided",
+    "colorPattern":  "Black-and-white spotted coat",
+    "availability":  "Contact to confirm"
+},
+  {
+    "src":  "assets/gallery-edited/edited-06.jpeg",
+    "alt":  "Great Dane puppy photo 28",
+    "price":  1356,
+    "name":  "Domino",
+    "sex":  "Not provided",
+    "age":  "Puppy; exact age not provided",
+    "colorPattern":  "Harlequin (white coat with black patches)",
+    "availability":  "Contact to confirm"
+},
+  {
+    "src":  "assets/gallery-edited/edited-12.jpeg",
+    "alt":  "Great Dane puppy photo 11",
+    "price":  1571,
+    "name":  "Nova",
+    "sex":  "Not provided",
+    "age":  "Puppy; exact age not provided",
+    "colorPattern":  "Blue-gray coat with darker patches",
+    "availability":  "Contact to confirm"
+},
+  {
+    "src":  "assets/gallery-edited/edited-15.jpeg",
+    "alt":  "Great Dane puppy photo 24",
+    "price":  1688,
+    "name":  "Otis",
+    "sex":  "Not provided",
+    "age":  "Puppy; exact age not provided",
+    "colorPattern":  "Black coat with white chest",
+    "availability":  "Contact to confirm"
+},
+  {
+    "src":  "assets/gallery-edited/edited-22.jpeg",
+    "alt":  "Great Dane puppy photo 33",
+    "price":  1844,
+    "sex":  "Not provided",
+    "age":  "Puppy; exact age not provided",
+    "colorPattern":  "Black coat",
+    "availability":  "Contact to confirm",
+    "name":  "Hazel"
+},
+  {
+    "src":  "assets/gallery-edited/edited-01.jpeg",
+    "alt":  "Great Dane puppy photo 20",
+    "price":  1239,
+    "name":  "Slate",
+    "sex":  "Not provided",
+    "age":  "Puppy; exact age not provided",
+    "colorPattern":  "Blue-gray coat with dark mottling",
+    "availability":  "Contact to confirm"
 }
 ];
