@@ -1,15 +1,22 @@
-(() => {
+﻿(() => {
   const photos = Array.isArray(window.greatDaneLocalGallery) ? window.greatDaneLocalGallery : [];
   const BATCH = photos.length;
   let limit = BATCH;
 
   function draw(host) {
     const shown = photos.slice(0, limit);
+    const mainPhotos = shown.filter(photo => photo.galleryGroup !== 'larger');
+    const largerPhotos = shown.filter(photo => photo.galleryGroup === 'larger');
+    const renderCards = items => items.map(photo => {
+      const index = photos.indexOf(photo);
+      return `<article class="photo-card"><button class="photo-image-link" type="button" data-open-photo="${index}" aria-label="View ${photo.name || photo.alt}"><img src="${photo.src}" alt="${photo.alt}" loading="lazy" decoding="async"><span class="photo-category-badge">Puppy photo</span></button><div class="photo-attribution"><h3 class="photo-title-link">${photo.name || photo.alt}</h3><span>${photo.colorPattern}</span><div class="photo-listing-price"><span>Price</span><strong>$${photo.price.toLocaleString("en-US")}</strong></div><a class="photo-card-link" href="#puppies?browse=1">See named puppy profiles</a></div></article>`;
+    }).join('');
     host.className = 'photo-library';
     host.setAttribute('aria-label', 'Great Dane photo collection');
     const galleryCount = document.getElementById('gallery-count');
-    if (galleryCount) galleryCount.textContent = `${photos.length} photos · showing ${shown.length}`;
-    host.innerHTML = `<div class="photo-grid">${shown.map((photo, index) => `<article class="photo-card"><button class="photo-image-link" type="button" data-open-photo="${index}" aria-label="View ${photo.name || photo.alt}"><img src="${photo.src}" alt="${photo.alt}" loading="lazy" decoding="async"><span class="photo-category-badge">Puppy photo</span></button><div class="photo-attribution"><h3 class="photo-title-link">${photo.name || photo.alt}</h3><span>${photo.colorPattern}</span><div class="photo-listing-price"><span>Price</span><strong>$${photo.price.toLocaleString("en-US")}</strong></div><a class="photo-card-link" href="#puppies?browse=1">See named puppy profiles</a></div></article>`).join('')}</div>
+    if (galleryCount) galleryCount.textContent = `${photos.length} photos \u00b7 showing ${shown.length}`;
+    host.innerHTML = `${mainPhotos.length ? `<div class="photo-grid">${renderCards(mainPhotos)}</div>` : ''}
+      ${largerPhotos.length ? `<section class="older-puppy-group"><div class="section-heading"><h2>Older Puppies &amp; Bigger Dogs</h2></div><div class="photo-grid">${renderCards(largerPhotos)}</div></section>` : ''}
       ${shown.length < photos.length ? `<button class="btn photo-more" type="button">Show the remaining ${photos.length - shown.length} photos</button>` : ''}
       <dialog class="local-photo-dialog" aria-label="Great Dane puppy photo details"><button class="local-photo-close" type="button" aria-label="Close photo details">&times;</button><div class="local-photo-layout"><img class="local-photo-large" alt=""><section class="local-photo-details"><span class="photo-category-badge">Puppy photo</span><h2 class="local-photo-name"></h2><p class="local-photo-price"><span>Price</span><strong></strong></p><dl><div><dt>Sex</dt><dd data-detail="sex"></dd></div><div><dt>Age</dt><dd data-detail="age"></dd></div><div><dt>Color / Pattern</dt><dd data-detail="color"></dd></div><div><dt>Availability</dt><dd data-detail="availability"></dd></div></dl><p class="local-photo-note">Coat color and pattern are visual estimates. Exact age, sex, and availability are not confirmed.</p><a class="button" href="#contact">Ask about availability</a></section></div><div class="local-photo-controls"><button type="button" data-photo-step="-1" aria-label="Previous photo">&larr; Previous</button><span class="local-photo-count"></span><button type="button" data-photo-step="1" aria-label="Next photo">Next &rarr;</button></div></dialog>`;
 
